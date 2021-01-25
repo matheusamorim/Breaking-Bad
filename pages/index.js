@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 import db from './db.json'
+import Widget from '../componentes/widget'
+import Footer from '../componentes/Footer'
+
 
 
 const BackgroundImage = styled.div`
@@ -29,7 +32,17 @@ export default function Home() {
   return (
   <BackgroundImage>
         <QuizContainer>
-          <p> teste </p>
+          <Widget>
+              <h1> Breaking Bad </h1>
+              <p> A melhor série </p>
+
+          </Widget>
+
+          <Widget>
+             <h1> Breaking Bad </h1>
+              <p> A melhor série </p>
+
+          </Widget>
         </QuizContainer>
   </BackgroundImage>
 
