@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import Head from 'next/head';
 import db from './db.json';
@@ -40,6 +41,8 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            <input placeholder="diz seu nome"/>
+
           </Widget.Content>
         </Widget>
 
